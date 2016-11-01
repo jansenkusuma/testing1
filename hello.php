@@ -14,4 +14,7 @@ if (! isset($_GET["name"])) {
 	$output = $twig->render("hello.html",$placeholders);
 }
 echo $output;
+
+
+echo "<p>Lepiland</p>";
 ?>
